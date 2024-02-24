@@ -1,7 +1,7 @@
-def hello(name):
-    print("Hello, " + name + "!")
+# This also works since Mojo is a supperset of Python
+# def main():
+#     print("Hello, world!")
 
 
-def main():
-    hello("world")
-    
+fn main():
+    print("Hello, world!")
