@@ -1,6 +1,8 @@
+def say_hello():
+    print("Hello, world!")
 
-# def say_hello(nbr=5) -> None:
-def say_hello(nbrs=5) -> NoneType: # must use NoneType to match the return type of the python function, will fail if trying to call using Mojo syntax
+
+def say_hello_python(nbrs=5) -> None:
     for i in range(nbrs):
         print("Hello, world!", i)
 
@@ -10,16 +12,30 @@ fn say_hello_mojo(nbrs: Int) -> None:
         print("Hello, world!", i)        
 
 
-fn main():
+# fn main():
+#     let x = 5
+#     let y = 6
+#     var z = x + y
+#     print("z: ", z)
+#     # say_hello() # cannot call function that may raise in a context that cannot raise mojo
+#     say_hello_mojo(5)
+#     print("----------------")
+#     try: # must surround with try/except or raises: to call the say_hello_python function using the Python syntax
+#         say_hello_python()
+#     except:
+#         print("Error")
+
+fn main() raises:
     let x = 5
     let y = 6
     var z = x + y
     print("z: ", z)
+    say_hello() # will generate a warning
+    print("----------------")
+    let ret = say_hello() #
+    print("----------------")
     say_hello_mojo(5)
     print("----------------")
-    try: # must surround with try/except to call the pythonic function say_hello
-        say_hello()
-    except:
-        print("Error")
+    say_hello_python()
     
 
