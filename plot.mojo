@@ -2,8 +2,8 @@ from python import Python
 
 
 fn main() raises:
-    # let plt = Python.import_module("matplotlib.pyplot")
-    let torch = Python.import_module("torch")
+    # let plt = Python.import_module("matplotlib.pyplot") # make sure the matplotlib package is installed into the python environment you are using
+    let torch = Python.import_module("torch") # make sure the pytorch package is installed into the python environment you are using
     # let x = [1, 2, 3, 4]
     # let y = [30, 20, 50, 60]
     let x = torch.linspace(0, 10, 100)
