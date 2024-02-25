@@ -15,8 +15,8 @@ fn lr_mj() raises:
     let skl = Python.import_module("sklearn.linear_model")
 
     let data = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10,  10, 20, 30, 40, 50, 60, 70, 80, 90, 100]) # one row with ten columns
-    let reshaped_data = data.reshape(2,10) # two rows, five columns
-    let transposed_data = data.reshape(2,10).T # two columns, five rows
+    let reshaped_data = data.reshape(2,10) # two rows, ten columns
+    let transposed_data = data.reshape(2,10).T # two columns, ten rows
     print("data:")
     print(data)
     print("reshaped_data:")
@@ -74,8 +74,8 @@ def lr_py():
     skl = Python.import_module("sklearn.linear_model")
 
     data = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10,  10, 20, 30, 40, 50, 60, 70, 80, 90, 100]) # one row with ten columns
-    reshaped_data = data.reshape(2,10) # two rows, five columns
-    transposed_data = data.reshape(2,10).T # two columns, five rows
+    reshaped_data = data.reshape(2,10) # two rows, ten columns
+    transposed_data = data.reshape(2,10).T # two columns, ten rows
     print("data:")
     print(data)
     print("reshaped_data:")
