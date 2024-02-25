@@ -1,0 +1,5 @@
+# 🔥
+# copy from here: https://emojipedia.org/fire and then paste it in the file name
+
+fn main():
+    print("Using emoji for extension!")

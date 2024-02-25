@@ -14,6 +14,12 @@ https://docs.modular.com/mojo/manual/get-started/hello-world.html
 # Docs
 https://docs.modular.com/mojo/
 
+# Support
+Python: 3.8 - 3.11
+Only Ubuntu and Mac Apple hardware for now
+
+# To commit a file with an emoji (mojo) extension to Git
+`git config core.quotePath false`
 
 # Visual Code extension
 - Install Mojo extension from Modular
@@ -38,3 +44,6 @@ mojo build first.mojo
 ```
 ./first
 ```
+
+# Mojo frameworks 
+https://github.com/mojicians/awesome-mojo
