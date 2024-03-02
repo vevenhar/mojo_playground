@@ -19,9 +19,9 @@ Python: 3.8 - 3.11
 Only Ubuntu and Mac Apple hardware for now
 
 # Shell profile (for example, .zshrc or .bash_profile) setup to use a specific conda environment (assuming you've created one previously)
-`export MODULAR_HOME="/Users/<user>/.modular"`
-`export PATH="/Users/<user>/.modular/pkg/packages.modular.com_mojo/bin:$PATH"`
-`export MOJO_PYTHON_LIBRARY=/Users/<user>/miniconda3/envs/<your_conda_env>/lib/libpython3.11.dylib`
+- `export MODULAR_HOME="/Users/<user>/.modular"`
+- `export PATH="/Users/<user>/.modular/pkg/packages.modular.com_mojo/bin:$PATH"`
+- `export MOJO_PYTHON_LIBRARY=/Users/<user>/miniconda3/envs/<your_conda_env>/lib/libpython3.11.dylib`
 
 # To commit a file with an emoji (mojo) extension to Git, run the following command first
 `git config core.quotePath false`
