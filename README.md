@@ -75,16 +75,15 @@ cat ~/.modular/modular.cfg
   - Python
   - Rust/C++
   - CUDA
-  Mojo and Max combined these levels into one unified
+- Mojo and Max attempt to combine these stacks into one unified world
 - Mojo gives AI superpowers to existing Python teams (no need to hire Rust or C++ developers to make your model run faster in production)
 - Mojo uses MLIR (Multi-Level Intermediate Representation): https://mlir.llvm.org
 - MLIR is an evolution of LLVM
 - MLIR is being utilized for AI accelarators
-- Mojo solves 3 world problem (Python, Frameworks, C++)
-  - When you deploy a model you have a lot of challenges.
+- Mojo solves the 2- or even 3-world problem (Python/AI Frameworks(TensorFlow, PyTorch, etc.)/C++)
    - Python is great for research and experimenting, but for prod deployments, developers often rewrite it in C++ for efficiency
-  - Mojo solves it this from research to prod using the same language
-  - Also, Modular is building an AI engine written in one language
+   - Mojo solves it this from research to prod using the same language
+   - Also, Modular is building an AI engine written in one language
 - Mojo could be much faster than Python because it is at the limit of what hardware can achieve, it was created by   working backwards from hardware accelartors
 - Mojo is about unlocking full hardware potential and giving programmers access to it
 - It may have the ability to surpass Python in ML and AI applications where high performance is crucial
