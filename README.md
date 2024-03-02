@@ -50,5 +50,11 @@ mojo build first.mojo
 ./first
 ```
 
-# Mojo frameworks, libraries, and resources
+# Resources
+https://docs.modular.com/mojo/
+https://docs.modular.com/mojo/manual/
+https://docs.modular.com/mojo/notebooks/
+https://docs.modular.com/mojo/playground
+https://docs.modular.com/mojo/lib
 https://github.com/mojicians/awesome-mojo
+https://mojodojo.dev/
