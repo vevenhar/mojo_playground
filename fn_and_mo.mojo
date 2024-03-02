@@ -1,9 +1,11 @@
-# Mojo module is a single Mojo source file that includes code suitable for use by other files that import it.
-# no main function (but possible), to be imported by other files for its APIs
+"""
+Mojo module is a single Mojo source file that includes code suitable for use by other files that import it,
+no main function needed (but possible), to be imported by other files for its APIs
 
-# A Mojo package is just a collection of Mojo modules in a directory that includes an __init__.mojo file. 
-# By organizing modules together in a directory, you can then import all the modules together or individually. 
-# Optionally, you can also compile the package into a .mojopkg or .📦 file that's easier to share.
+A Mojo package is just a collection of Mojo modules in a directory that includes an __init__.mojo file. 
+By organizing modules together in a directory, you can then import all the modules together or individually. 
+Optionally, you can also compile the package into a .mojopkg or .📦 file that's easier to share.
+"""
 
 # from mymodule import MyPair # option 1
 # import mymodule # option 2

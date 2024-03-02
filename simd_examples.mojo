@@ -12,9 +12,7 @@ fn main():
     var b = SIMD[DType.float16](1, 4, 9, 16)
 
     print("squared:", a * 2)
-    print("elapsed:", time.now() - start)
-    # convert to seconds
-    print("elapsed:", (time.now() - start) / 1_000_000_000)
+    print("elapsed in nanoseconds:", time.now() - start)
 
 
     # Perform SIMD operations
