@@ -51,10 +51,10 @@ mojo build first.mojo
 ```
 
 # Resources
-https://docs.modular.com/mojo/
-https://docs.modular.com/mojo/manual/
-https://docs.modular.com/mojo/notebooks/
-https://docs.modular.com/mojo/playground
-https://docs.modular.com/mojo/lib
-https://github.com/mojicians/awesome-mojo
-https://mojodojo.dev/
+- https://docs.modular.com/mojo/
+- https://docs.modular.com/mojo/manual/
+- https://docs.modular.com/mojo/notebooks/
+- https://docs.modular.com/mojo/playground
+- https://docs.modular.com/mojo/lib
+- https://github.com/mojicians/awesome-mojo
+- https://mojodojo.dev/
